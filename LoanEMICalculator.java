@@ -4,7 +4,7 @@ import java.text.DecimalFormat;
 
 public class LoanEMICalculator {
     public static void main(String[] args) {
-        double principalAmount = getInput("Enter principal amount: ");
+        double principalAmount = getInput("Enter principal amount.: ");
         int tenure = (int) getInput("Enter tenure (in months): ");
         double interestRate = getInput("Enter interest rate: ");
 
