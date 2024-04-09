@@ -14,7 +14,7 @@ public class LoanEMICalculator {
 
         StringBuilder output = new StringBuilder();
         output.append("Year\tInterest\tBalance\tLoan Paid To Date\tPrincipal\t(A)\tTotal Payment (A + B)\t(B)\n");
-        output.append("============================================================================================\n");
+        output.append("=======================================================================================\n");
 
         double balance = principalAmount;
         double loanPaidToDate = 0;
