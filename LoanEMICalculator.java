@@ -81,7 +81,7 @@ public class LoanEMICalculator {
             writer.write(output);
             writer.close();
         } catch (IOException e) {
-            System.out.println("An error occurred while saving the output to a file.");
+            System.out.println("An error occurred while saving the output to a file");
             e.printStackTrace();
         }
     }
