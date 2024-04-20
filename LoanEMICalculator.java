@@ -47,7 +47,7 @@ public class LoanEMICalculator {
                 output.append("============================================================================================\n");
             }
 
-            output.append(monthName).append("\n\n");
+            output.append(monthName).append("\n");
         }
 
         saveOutputToFile(output.toString());
